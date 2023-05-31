@@ -1,0 +1,33 @@
+<div class="DI justify-content-evenly">
+    <p class="mt-auto pp">{{user.name}}</p>
+    <p class="mt-auto pp">|</p>
+    <p class="mt-auto pp">{{user.email}} <br> {{user.phone}}</p>
+    <p class="mt-auto pp">|</p>
+    <p class="mt-auto pp">{{user.address["street"]}}</p>
+</div>
+<div class="container">
+    <p class="d-flex justify-content-center  ppp "> Photos</p>
+    <hr class="border border-danger border-2 opacity-50">
+</div>
+
+
+<div class=" row  container m-auto" *ngIf="photos; else falseBlock">
+    
+    <div class="card col-md-6 col-lg-3 col-sm-12    " *ngFor="let item of photos">
+        <div>
+            <img src="{{item.url}}" class="card-img-top">
+        </div>
+    </div>
+</div>
+
+
+<div class="container m-auto">
+    <ng-template #falseBlock>
+        <div style="color: red;">
+            <h1>Loading....</h1>
+            <div class="spinner-border text-success" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+        </div>
+    </ng-template>
+</div>

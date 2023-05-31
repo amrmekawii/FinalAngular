@@ -1,0 +1,22 @@
+.DI
+{
+color: blue;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 80PX;
+background-color: rgba(0, 88, 4, 0.493);
+
+}
+.pp{
+
+    font-size: 25px;
+    color: rgb(235, 229, 251);
+}
+.ppp{
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(248, 0, 4);
+}
+

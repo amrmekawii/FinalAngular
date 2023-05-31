@@ -1,0 +1,15 @@
+.DI
+{
+color: blue;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 70PX;
+background-color: rgba(0, 88, 4, 0.493);
+
+}
+.pp{
+
+    font-size: 25px;
+    color: rgb(0, 255, 179);
+}

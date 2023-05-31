@@ -1,0 +1,38 @@
+.DI
+{
+color: blue;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 80PX;
+background-color: rgba(0, 88, 4, 0.493);
+
+}
+.pp{
+
+    font-size: 25px;
+    color: rgb(235, 229, 251);
+}
+.ppp{
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(248, 0, 4);
+}
+
+.XX{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 200PX;
+    width: 100%;
+    background-color: orangered;
+  
+
+}
+button {
+font-size: x-large;
+color: aliceblue;
+font-weight: bold;
+
+}
